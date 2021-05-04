@@ -1,3 +1,6 @@
+if (screen.width <= 480) {
+    alert("This device is incompatible with the site.");
+}
 const videoElem = document.getElementById("video");
 const logElem = document.getElementById("log");
 const startElem = document.getElementById("start");
